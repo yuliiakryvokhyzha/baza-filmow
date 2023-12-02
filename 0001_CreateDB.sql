@@ -19,7 +19,7 @@ Kraj_urodzenia VARCHAR (50),
 Oskar BIT,
 PRIMARY KEY (Id));
 
-CREATE TABLE Relacje_aktorzy-filmy (
+CREATE TABLE Relacje_aktorzy_filmy (
 Nr INT,
 Nazwa_filmu VARCHAR (50),
 Aktor VARCHAR (50));

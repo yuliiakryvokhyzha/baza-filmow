@@ -17,7 +17,8 @@ Aktor VARCHAR (50),
 Data_urodzenia INT,
 Kraj_urodzenia VARCHAR (50),
 Oskar BIT,
-PRIMARY KEY (Id));
+PRIMARY KEY (Id)
+FOREIGN KEY (Aktor));
 
 CREATE TABLE Relacje_aktorzy_filmy (
 Nr INT,
